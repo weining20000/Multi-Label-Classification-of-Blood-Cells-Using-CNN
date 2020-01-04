@@ -15,7 +15,7 @@ The training set contains 929 rectangular cell images of varied size, 929 txt fi
 * Image Resizing
 * Data Augmentation
 * Labeling
-* Loading Data using DataLoader
+* Loading Data using DataLoader <br />
 Detailed description is provided in the project report under the **Report** folder.
 
 ## Modeling
