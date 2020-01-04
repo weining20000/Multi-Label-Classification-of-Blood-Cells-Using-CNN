@@ -16,7 +16,7 @@ The training set contains 929 rectangular cell images of varied size, 929 txt fi
 * Data Augmentation
 * Labeling
 * Loading Data using DataLoader <br />
-Detailed description is provided in the project report under the **Report** folder.
+(Detailed description of the data preprocessing steps is provided in the project report under the **Report** folder.)
 
 ## Modeling
 In this project, I built a network that contains 12 layers.5 As illustrated in Figure 1, the model follows the block design pattern, where one convolutional layer (filters of size 3 X 3), one max pooling layer (factor 2), and one ReLU activation layer are stacked as a single learning block. The whole model is formed by four learning blocks, followed by three fully connected layer, and lastly following by a sigmoid activation function to render the probabilities of each class independently for classification. I chose Adam as the model optimizer and BCELoss as the function loss.
